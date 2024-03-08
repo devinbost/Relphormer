@@ -5,7 +5,6 @@ import sys
 
 from collections import Counter
 from multiprocessing import Pool
-from torch._C import HOIST_CONV_PACKED_PARAMS
 from torch.utils.data import Dataset, Sampler, IterableDataset
 from collections import defaultdict
 from functools import partial
